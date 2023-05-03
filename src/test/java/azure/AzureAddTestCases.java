@@ -39,11 +39,11 @@ public class AzureAddTestCases {
                 allSteps +
                 "</steps>\\\",\\\"22352404\\\":\\\"" +
                 isAutomated +
-                "\\\",\\\"-2\\\":332,\\\"-104\\\":494}}]\", \"pageSource\":{\"contributionPaths\":[\"VSS\",\"VSS/Resources\",\"q\",\"knockout\",\"mousetrap\",\"mustache\",\"react\",\"react-dom\",\"react-transition-group\",\"jQueryUI\",\"jquery\",\"OfficeFabric\",\"tslib\",\"@uifabric\",\"VSSUI\",\"ContentRendering\",\"ContentRendering/Resources\",\"WidgetComponents\",\"WidgetComponents/Resources\",\"Charts\",\"Charts/Resources\",\"TFSUI\",\"TFSUI/Resources\",\"TFS\",\"Notifications\",\"Presentation/Scripts/marked\",\"Presentation/Scripts/URI\",\"Presentation/Scripts/punycode\",\"Presentation/Scripts/IPv6\",\"Presentation/Scripts/SecondLevelDomains\",\"highcharts\",\"highcharts/highcharts-more\",\"highcharts/modules/accessibility\",\"highcharts/modules/heatmap\",\"highcharts/modules/funnel\",\"Analytics\",\"ReleaseManagement/Core\"], \"diagnostics\":{ \"sessionId\":\"5e69c062-30aa-422b-973c-2fb1123f2a90\",     \"activityId\":\"5e69c062-30aa-422b-973c-2fb1123f2a90\",     \"bundlingEnabled\":true,     \"cdnAvailable\":true,     \"cdnEnabled\":true,     \"webPlatformVersion\":\"M217\",     \"serviceVersion\":\"Dev19.M217.1 (build: AzureDevOps_M217_20230222.11)\"},     \"navigation\":{   \"topMostLevel\":8, \"area\":\"\", \"currentController\":\"ContributedPage\", \"currentAction\":\"Execute\", \"routeId\":\"ms.vss-test-web.testplans-hub-refresh-route\", \"routeTemplates\":[\"{project}/_testPlans\",\"{project}/_testPlans/{pivots}\",\"{project}/{team}/_testPlans\",\"{project}/{team}/_testManagement\",\"{project}/_testManagement\"], \"routeValues\":{  \"project\":\"RoofXR\",\"controller\":\"ContributedPage\",\"action\":\"Execute\"                        }                        },\"project\":{ \"id\":\"8b932203-9524-4d15-8a3b-4c2cbfe8e44c\",\"name\":\"RoofXR\"                            },\"selectedHubGroupId\":\"ms.vss-test-web.test-hub-group\",\"selectedHubId\":\"ms.vss-test-web.testplans-hub-refresh\",\"url\":\"YOUR_ORGANIZATION_URL/RoofXR/_testPlans/define?planId=" +
+                "\\\",\\\"-2\\\":332,\\\"-104\\\":494}}]\", \"pageSource\":{\"contributionPaths\":[\"VSS\",\"VSS/Resources\",\"q\",\"knockout\",\"mousetrap\",\"mustache\",\"react\",\"react-dom\",\"react-transition-group\",\"jQueryUI\",\"jquery\",\"OfficeFabric\",\"tslib\",\"@uifabric\",\"VSSUI\",\"ContentRendering\",\"ContentRendering/Resources\",\"WidgetComponents\",\"WidgetComponents/Resources\",\"Charts\",\"Charts/Resources\",\"TFSUI\",\"TFSUI/Resources\",\"TFS\",\"Notifications\",\"Presentation/Scripts/marked\",\"Presentation/Scripts/URI\",\"Presentation/Scripts/punycode\",\"Presentation/Scripts/IPv6\",\"Presentation/Scripts/SecondLevelDomains\",\"highcharts\",\"highcharts/highcharts-more\",\"highcharts/modules/accessibility\",\"highcharts/modules/heatmap\",\"highcharts/modules/funnel\",\"Analytics\",\"ReleaseManagement/Core\"], \"diagnostics\":{ \"sessionId\":\"5e69c062-30aa-422b-973c-2fb1123f2a90\",     \"activityId\":\"5e69c062-30aa-422b-973c-2fb1123f2a90\",     \"bundlingEnabled\":true,     \"cdnAvailable\":true,     \"cdnEnabled\":true,     \"webPlatformVersion\":\"M217\",     \"serviceVersion\":\"Dev19.M217.1 (build: AzureDevOps_M217_20230222.11)\"},     \"navigation\":{   \"topMostLevel\":8, \"area\":\"\", \"currentController\":\"ContributedPage\", \"currentAction\":\"Execute\", \"routeId\":\"ms.vss-test-web.testplans-hub-refresh-route\", \"routeTemplates\":[\"{project}/_testPlans\",\"{project}/_testPlans/{pivots}\",\"{project}/{team}/_testPlans\",\"{project}/{team}/_testManagement\",\"{project}/_testManagement\"], \"routeValues\":{  \"project\":\"RoofXR\",\"controller\":\"ContributedPage\",\"action\":\"Execute\"                        }                        },\"project\":{ \"id\":\"8b932203-9524-4d15-8a3b-4c2cbfe8e44c\",\"name\":\"RoofXR\"                            },\"selectedHubGroupId\":\"ms.vss-test-web.test-hub-group\",\"selectedHubId\":\"ms.vss-test-web.testplans-hub-refresh\",\"url\":\"YOUR_ORGANIZATION_URL/_testPlans/define?planId=" +
                 planId +
                 "&suiteId=" +
                 suiteId +
-                "\"},\"sourcePage\":{\"url\":\"YOUR_ORGANIZATION_URL/RoofXR/_testPlans/define?planId=" +
+                "\"},\"sourcePage\":{\"url\":\"YOUR_ORGANIZATION_URL/_testPlans/define?planId=" +
                 planId +
                 "&suiteId=" +
                 suiteId +
@@ -85,7 +85,7 @@ public class AzureAddTestCases {
         System.out.println("-----------------------------------" + response2.statusCode());
 //        response2.prettyPrint();
 
-        String endOfUrl = "YOUR_ORGANIZATION_URL/RoofXR/_testPlans/define?planId=" + planId + "&suiteId=" + suiteId;
+        String endOfUrl = "YOUR_ORGANIZATION_URL/_testPlans/define?planId=" + planId + "&suiteId=" + suiteId;
 
         System.out.println("Eklendi : " + endOfUrl);
 
@@ -96,7 +96,7 @@ public class AzureAddTestCases {
         String planId = "88382";
         String suiteId = "88388";
         String isAutomated = "Not Automated";
-        String mail = "sanem.kara@goartmetaverse.com";
+        String mail = "sanem.kara@mail.com";
         String name = "Sanem Kara";
         // Azure Profilinden Personal Access Token oluşturulabilir. Bu Token ile postmanden istek atılarak tokenın şifrelenmiş hali alınabilir.
         // Request body örneği json dosyasında bulunmaktadır.
