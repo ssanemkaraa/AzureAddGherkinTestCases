@@ -68,24 +68,24 @@
             "{project}/_testManagement"
           ],
           "routeValues": {
-            "project": "RoofXR",
+            "project": "",
             "controller": "ContributedPage",
             "action": "Execute"
           }
         },
         "project": {
           "id": "8b932203-9524-4d15-8a3b-4c2cbfe8e44c",
-          "name": "RoofXR"
+          "name": ""
         },
         "selectedHubGroupId": "ms.vss-test-web.test-hub-group",
         "selectedHubId": "ms.vss-test-web.testplans-hub-refresh",
-        "url": "https://dev.azure.com/RoofStacks/RoofXR/_testPlans/define?planId=88382&suiteId=88386"
+        "url": "https://YOUR_ORGANIZATION_URL//_testPlans/define?planId=88382&suiteId=88386"
       },
       "sourcePage": {
-        "url": "https://dev.azure.com/RoofStacks/RoofXR/_testPlans/define?planId=88382&suiteId=88386",
+        "url": "https://YOUR_ORGANIZATION_URL//_testPlans/define?planId=88382&suiteId=88386",
         "routeId": "ms.vss-test-web.testplans-hub-refresh-route",
         "routeValues": {
-          "project": "RoofXR",
+          "project": "",
           "controller": "ContributedPage",
           "action": "Execute"
         }
