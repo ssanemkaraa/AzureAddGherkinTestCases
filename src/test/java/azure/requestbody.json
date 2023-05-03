@@ -1,0 +1,95 @@
+{
+  "contributionIds": [
+    "ms.vss-work-web.update-work-items-data-provider"
+  ],
+  "context": {
+    "properties": {
+      "updatePackage": "[{\"id\":0,\"rev\":0,\"projectId\":\"8b932203-9524-4d15-8a3b-4c2cbfe8e44c\",\"isDirty\":true,\"tempId\":-1,\"fields\":{\"1\":\"Create Raffle - Unauthorized [role, basedType]\",\"2\":\"Design\",\"9\":\"Sanem Kara <sanem.kara@goartmetaverse.com>\",\"22\":\"New\",\"24\":\"Sanem Kara <sanem.kara@goartmetaverse.com>\",\"25\":\"Test Case\",\"33\":\"Sanem Kara <sanem.kara@goartmetaverse.com>\",\"22352360\":{\"type\":1},\"22352361\":{\"type\":1},\"22352362\":\"Sanem Kara <sanem.kara@goartmetaverse.com>\",\"22352368\":2,\"22352395\":\"<steps id=\\\"0\\\" last=\\\"2\\\"><step id=\\\"2\\\" type=\\\"ActionStep\\\"><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;    Given create valid token with &amp;lt;role&amp;gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;&lt;BR/&gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><description/></step><step id=\\\"3\\\" type=\\\"ActionStep\\\"><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;    * raffle request data create, with scenario now and based &amp;lt;basedType&amp;gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;&lt;BR/&gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><description/></step><step id=\\\"4\\\" type=\\\"ActionStep\\\"><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;    When a POST request is send to RAFFLE_URL&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;&lt;BR/&gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><description/></step><step id=\\\"5\\\" type=\\\"ActionStep\\\"><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;    Then the status code is 403&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;&lt;BR/&gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><description/></step><step id=\\\"6\\\" type=\\\"ActionStep\\\"><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;    * response field message scenario is equal expected You Are Not Authorized to Access This Resource&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;&lt;BR/&gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><description/></step><step id=\\\"7\\\" type=\\\"ActionStep\\\"><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;    &lt;/P&gt;&lt;/DIV&gt;</parameterizedString><parameterizedString isformatted=\\\"true\\\">&lt;DIV&gt;&lt;P&gt;&lt;BR/&gt;&lt;/P&gt;&lt;/DIV&gt;</parameterizedString><description/></step></steps>\",\"22352404\":\"Not Automated\",\"-2\":332,\"-104\":494}}]",
+      "pageSource": {
+        "contributionPaths": [
+          "VSS",
+          "VSS/Resources",
+          "q",
+          "knockout",
+          "mousetrap",
+          "mustache",
+          "react",
+          "react-dom",
+          "react-transition-group",
+          "jQueryUI",
+          "jquery",
+          "OfficeFabric",
+          "tslib",
+          "@uifabric",
+          "VSSUI",
+          "ContentRendering",
+          "ContentRendering/Resources",
+          "WidgetComponents",
+          "WidgetComponents/Resources",
+          "Charts",
+          "Charts/Resources",
+          "TFSUI",
+          "TFSUI/Resources",
+          "TFS",
+          "Notifications",
+          "Presentation/Scripts/marked",
+          "Presentation/Scripts/URI",
+          "Presentation/Scripts/punycode",
+          "Presentation/Scripts/IPv6",
+          "Presentation/Scripts/SecondLevelDomains",
+          "highcharts",
+          "highcharts/highcharts-more",
+          "highcharts/modules/accessibility",
+          "highcharts/modules/heatmap",
+          "highcharts/modules/funnel",
+          "Analytics",
+          "ReleaseManagement/Core"
+        ],
+        "diagnostics": {
+          "sessionId": "5e69c062-30aa-422b-973c-2fb1123f2a90",
+          "activityId": "5e69c062-30aa-422b-973c-2fb1123f2a90",
+          "bundlingEnabled": true,
+          "cdnAvailable": true,
+          "cdnEnabled": true,
+          "webPlatformVersion": "M217",
+          "serviceVersion": "Dev19.M217.1 (build: AzureDevOps_M217_20230222.11)"
+        },
+        "navigation": {
+          "topMostLevel": 8,
+          "area": "",
+          "currentController": "ContributedPage",
+          "currentAction": "Execute",
+          "routeId": "ms.vss-test-web.testplans-hub-refresh-route",
+          "routeTemplates": [
+            "{project}/_testPlans",
+            "{project}/_testPlans/{pivots}",
+            "{project}/{team}/_testPlans",
+            "{project}/{team}/_testManagement",
+            "{project}/_testManagement"
+          ],
+          "routeValues": {
+            "project": "RoofXR",
+            "controller": "ContributedPage",
+            "action": "Execute"
+          }
+        },
+        "project": {
+          "id": "8b932203-9524-4d15-8a3b-4c2cbfe8e44c",
+          "name": "RoofXR"
+        },
+        "selectedHubGroupId": "ms.vss-test-web.test-hub-group",
+        "selectedHubId": "ms.vss-test-web.testplans-hub-refresh",
+        "url": "https://dev.azure.com/RoofStacks/RoofXR/_testPlans/define?planId=88382&suiteId=88386"
+      },
+      "sourcePage": {
+        "url": "https://dev.azure.com/RoofStacks/RoofXR/_testPlans/define?planId=88382&suiteId=88386",
+        "routeId": "ms.vss-test-web.testplans-hub-refresh-route",
+        "routeValues": {
+          "project": "RoofXR",
+          "controller": "ContributedPage",
+          "action": "Execute"
+        }
+      }
+    }
+  }
+}
